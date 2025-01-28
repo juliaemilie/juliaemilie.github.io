@@ -1,0 +1,22 @@
+@font-face {	
+	font-family: "Noto Serif Light";
+	src: url("fonts/NotoSerifDisplay_ExtraCondensed-Light.woff"); 
+}
+
+@font-face {	
+	font-family: "Noto Serif Medium";
+	src: url("fonts/NotoSerifDisplay_ExtraCondensed-Medium.woff"); 
+}
+
+@font-face {		
+	font-family: "Lato";
+	src: url("fonts/Lato-Regular.woff"); 	
+}
+
+$white-green: #E2E9DA;
+$light-green: #ADD772;
+$black-green: #054E2D;
+$highlight-font: "Noto Serif Medium", serif;
+$default-font: "Lato", sans-serif;
+
+@import "../node_modules/bootstrap/scss/bootstrap";
