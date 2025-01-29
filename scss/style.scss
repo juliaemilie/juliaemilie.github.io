@@ -1,22 +1,50 @@
 @font-face {	
-	font-family: "Noto Serif Light";
-	src: url("fonts/NotoSerifDisplay_ExtraCondensed-Light.woff"); 
+	font-family: "Manrope Extra Bold";
+	src: url("../fonts/Manrope-ExtraBold.woff"); 
 }
 
 @font-face {	
-	font-family: "Noto Serif Medium";
-	src: url("fonts/NotoSerifDisplay_ExtraCondensed-Medium.woff"); 
+	font-family: "Monrope Regular";
+	src: url("../fonts/Manrope-Regular.woff"); 
 }
 
-@font-face {		
-	font-family: "Lato";
-	src: url("fonts/Lato-Regular.woff"); 	
-}
 
+// include bootstrap functions
+@import "../node_modules/bootstrap/scss/functions";
+
+// create custom variables and override default bootstrap variables
 $white-green: #E2E9DA;
 $light-green: #ADD772;
 $black-green: #054E2D;
-$highlight-font: "Noto Serif Medium", serif;
-$default-font: "Lato", sans-serif;
+//lightens color 
+$custom-green: tint-color($black-green, 10%);
+$primary: $light-green;
+$secondary: $black-green;
+$body-bg: #fff;
+$body-color: #111;
+
+
+$headings-font-family: "Manrope Extra Bold", serif;
+$font-family-sans-serif: "Manrope Regular", sans-serif;
 
 @import "../node_modules/bootstrap/scss/bootstrap";
+
+.white-green-background {
+	background-color: $white-green;
+}
+
+.light-green-background {
+	background-color: $light-green;
+}
+
+.black-green-background {
+	background-color: $black-green;
+}
+
+a {
+	text-decoration: none;
+
+	&:hover {
+		background-color: shade-color($white, 20%);
+	}
+}
