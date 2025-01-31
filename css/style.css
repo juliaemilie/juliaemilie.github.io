@@ -11904,6 +11904,10 @@ ul.navbar-nav, .navbar-brand {
   background-color: rgb(240.5, 244, 236.5);
 }
 
+#sidebar {
+  z-index: -1;
+}
+
 #main-nav li a:hover {
   background-color: rgb(214, 235, 184.5);
 }

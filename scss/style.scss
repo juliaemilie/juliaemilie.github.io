@@ -94,6 +94,10 @@ ul.navbar-nav, .navbar-brand {
   background-color: mix(white, $white-green, 50%);
 } 
 
+#sidebar {
+  z-index: -1;
+}
+
 #main-nav li a:hover {
   background-color: mix(white, $light-green, 50%);
 } 
