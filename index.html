@@ -12,7 +12,10 @@
     <link href="fonts/font_awesome/css/all.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 
-    <script src="../scripts/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.1/papaparse.min.js"
+        integrity="sha512-EbdJQSugx0nVWrtyK3JdQQ/03mS3Q1UiAhRtErbwl1YL/+e2hZdlIcSURxxh7WXHTzn83sjlh2rysACoJGfb6g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
 </head>
 
 <body>
@@ -44,8 +47,9 @@
 
     <main>
         <div class="d-flex">
-            <nav class="light-green-background col-md-3 col-lg-2 navbar navbar-expand-md sticky-top vh-100" id="sidebar">
-                <div class="d-flex black-green-color px-2">                    
+            <nav class="light-green-background col-md-3 col-lg-2 navbar navbar-expand-md sticky-top vh-100"
+                id="sidebar">
+                <div class="d-flex black-green-color px-2">
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -57,7 +61,7 @@
                                         class="fa-solid fa-fire-flame-curved"></i> Die Klimakrise</a></li>
                             <li class="nav-item py-2"><a class="nav-link" href="#co2emitters"><i
                                         class="fa-solid fa-smog"></i> Die größten
-                                    CO2-Emittenten</a>
+                                    CO<sub>2</sub>-Emittenten</a>
                             </li>
                             <li class="nav-item py-2"><a class="nav-link" href="#projects"><i
                                         class="fa-solid fa-diagram-project"></i> Unsere Projekte</a></li>
@@ -114,31 +118,18 @@
                         </p>
                     </section>
                     <section class="my-4" id="co2emitters">
-                        <h2 class="mb-3">Die größten CO2-Emittenten</h2>
-                        <p>
-                            Dürren, Überflutungen, Stürme – immer häufiger und heftiger beeinflusst die Klimakrise unser
-                            aller Leben. Wir wissen, dass wir mitten im Klimawandel stecken. Und wir wissen, dass unser
-                            Handeln ihn verursacht. Die Zeit wird knapp: Der Klimawandel hat Folgen – das sich
-                            verändernde
-                            Klima bedroht Naturparadiese auf der ganzen Welt und gefährdet unsere Lebensgrundlage.
-                        </p>
-                        <p>
-                            Der Klimawandel wird häufig mit dem Stichwort „globale Erwärmung“ gleichgesetzt. Im Kern
-                            bezeichnet der Klimawandel allerdings sowohl die Abkühlung als auch die Erwärmung des Klimas
-                            auf
-                            der Erde über einen langen Zeitraum – also eine Klimaveränderung. Dabei ist der Begriff
-                            „Klima“
-                            nicht zu verwechseln mit dem Wetter. Wetter ist das, was wir tagtäglich an kurzfristigen,
-                            aktuellen Veränderung der Temperatur wahrnehmen.
-                            Der Klimawandel ist kein neues Phänomen. Der Begriff beschreibt die langfristigen
-                            Veränderungen
-                            von Faktoren wie der Temperatur, des Niederschlages und der Meeresströmungen. Diese
-                            Klimaveränderungen wurden in den vergangenen Jahrzehnten durch zahlreiche Studien und
-                            Beobachtungen weltweit nachgewiesen. Dabei sind die langfristigen Trends entscheidend. Das
-                            bedeutet, dass es auch bei einem langfristigen Erwärmungstrend immer wieder Ausreißer nach
-                            oben
-                            oder unten geben wird.
-                        </p>
+                        <h2 class="mb-3">Die größten CO<sub>2</sub>-Emittenten</h2>
+                        <table style="width: 90vw; margin: auto;" class="table" id="emissions-table"> 
+                            <thead> 
+                                <tr> 
+                                    <th>Unternehmen</th>
+                                    <th>Land</th>
+                                    <th>CO<sub>2</sub>-Emissionen in MtCO<sub>2</sub></th>
+                                </tr> 
+                            </thead> 
+                            <tbody id="emissions-table-body"> 
+                            </tbody> 
+                        </table>
                     </section>
                     <section class="my-4" id="projects">
                         <h2 class="mb-3">Unsere Projekte</h2>
@@ -224,6 +215,7 @@
         </nav>
     </footer>
     <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="../scripts/main.js"></script>
 </body>
 
 </html>

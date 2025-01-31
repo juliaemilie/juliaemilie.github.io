@@ -1,0 +1,295 @@
+[
+    {
+        "name": "Abu Dhabi National Oil Company",
+        "country": "",
+        "emissions": "705.47238723850790000000"
+    },
+    {
+        "name": "Adaro Energy,Investor-owned Company",
+        "country": "",
+        "emissions": "130.15357184558133900000"
+    },
+    {
+        "name": "American Consolidated Natural Resources",
+        "country": "",
+        "emissions": "135.42379250233796000000"
+    },
+    {
+        "name": "Arch Resources",
+        "country": "",
+        "emissions": "151.31092517492187600000"
+    },
+    {
+        "name": "Banpu",
+        "country": "",
+        "emissions": "107.13203520068122200000"
+    },
+    {
+        "name": "BHP",
+        "country": "",
+        "emissions": "191.91030939312200800000"
+    },
+    {
+        "name": "BP",
+        "country": "",
+        "emissions": "365.62452549950473000000"
+    },
+    {
+        "name": "Bumi Resources",
+        "country": "",
+        "emissions": "170.36188774359286000000"
+    },
+    {
+        "name": "Canadian Natural Resources",
+        "country": "",
+        "emissions": "191.40625317884729000000"
+    },
+    {
+        "name": "Cenovus Energy",
+        "country": "",
+        "emissions": "116.47365317021852940000"
+    },
+    {
+        "name": "Chesapeake Energy",
+        "country": "",
+        "emissions": "105.54106832090710350000"
+    },
+    {
+        "name": "Chevron",
+        "country": "",
+        "emissions": "454.45373701067283500000"
+    },
+    {
+        "name": "China (Cement)",
+        "country": "",
+        "emissions": "1050.00000000000000000000"
+    },
+    {
+        "name": "China (Coal)",
+        "country": "",
+        "emissions": "12290.37957102129993000000"
+    },
+    {
+        "name": "CNOOC",
+        "country": "",
+        "emissions": "252.13089442570437000000"
+    },
+    {
+        "name": "CNPC",
+        "country": "",
+        "emissions": "702.13510508979214000000"
+    },
+    {
+        "name": "Coal India",
+        "country": "",
+        "emissions": "1407.03101696394354400000"
+    },
+    {
+        "name": "ConocoPhillips",
+        "country": "",
+        "emissions": "260.26720821791173700000"
+    },
+    {
+        "name": "Ecopetrol",
+        "country": "",
+        "emissions": "104.29256681600848400000"
+    },
+    {
+        "name": "Egyptian General Petroleum",
+        "country": "",
+        "emissions": "132.41441620366943000000"
+    },
+    {
+        "name": "Eni",
+        "country": "",
+        "emissions": "229.60717823116844000000"
+    },
+    {
+        "name": "EOG Resources",
+        "country": "",
+        "emissions": "135.69450518553986800000"
+    },
+    {
+        "name": "EQT Corporation",
+        "country": "",
+        "emissions": "140.78054561335235395000"
+    },
+    {
+        "name": "Equinor",
+        "country": "",
+        "emissions": "279.76994200102368000000"
+    },
+    {
+        "name": "Exxaro Resources Ltd",
+        "country": "",
+        "emissions": "115.49540645617013400000"
+    },
+    {
+        "name": "ExxonMobil",
+        "country": "",
+        "emissions": "563.32236941280917900000"
+    },
+    {
+        "name": "Gazprom",
+        "country": "",
+        "emissions": "1254.52647723756087000000"
+    },
+    {
+        "name": "Glencore",
+        "country": "",
+        "emissions": "312.40945271554539450000"
+    },
+    {
+        "name": "Iraq National Oil Company",
+        "country": "",
+        "emissions": "455.57985852286257400000"
+    },
+    {
+        "name": "Kuwait Petroleum Corp.",
+        "country": "",
+        "emissions": "429.70885338985534000000"
+    },
+    {
+        "name": "Libya National Oil Corp.",
+        "country": "",
+        "emissions": "152.88214011778901000000"
+    },
+    {
+        "name": "Lukoil",
+        "country": "",
+        "emissions": "347.43249924271275000000"
+    },
+    {
+        "name": "National Iranian Oil Co.",
+        "country": "",
+        "emissions": "1208.82667652715920000000"
+    },
+    {
+        "name": "Nigerian National Petroleum Corp.",
+        "country": "",
+        "emissions": "373.44051922079262000000"
+    },
+    {
+        "name": "Novatek",
+        "country": "",
+        "emissions": "246.34545330823014000000"
+    },
+    {
+        "name": "Occidental Petroleum",
+        "country": "",
+        "emissions": "172.55693188375986600000"
+    },
+    {
+        "name": "ONGC India",
+        "country": "",
+        "emissions": "119.25695738135775000000"
+    },
+    {
+        "name": "Peabody Energy",
+        "country": "",
+        "emissions": "268.91706303299393000000"
+    },
+    {
+        "name": "Pemex",
+        "country": "",
+        "emissions": "345.38070015030187000000"
+    },
+    {
+        "name": "Pertamina",
+        "country": "",
+        "emissions": "144.69425598479855000000"
+    },
+    {
+        "name": "Petoro",
+        "country": "",
+        "emissions": "154.66442481131599000000"
+    },
+    {
+        "name": "Petrobras",
+        "country": "",
+        "emissions": "397.77514583180106000000"
+    },
+    {
+        "name": "Petroleos de Venezuela",
+        "country": "",
+        "emissions": "167.07040080439501000000"
+    },
+    {
+        "name": "Petroleum Development Oman",
+        "country": "",
+        "emissions": "163.39073985822463600000"
+    },
+    {
+        "name": "Petronas",
+        "country": "",
+        "emissions": "366.36957471864995000000"
+    },
+    {
+        "name": "QatarEnergy",
+        "country": "",
+        "emissions": "270.24088937501814000000"
+    },
+    {
+        "name": "Rosneft",
+        "country": "",
+        "emissions": "759.58602131430560000000"
+    },
+    {
+        "name": "Saudi Aramco",
+        "country": "",
+        "emissions": "1962.15758460957770000000"
+    },
+    {
+        "name": "Seriti Resources",
+        "country": "",
+        "emissions": "122.85485228797343000000"
+    },
+    {
+        "name": "Shell",
+        "country": "",
+        "emissions": "428.70623676647727800000"
+    },
+    {
+        "name": "Singareni Collieries",
+        "country": "",
+        "emissions": "134.33775170292424040000"
+    },
+    {
+        "name": "Sinopec",
+        "country": "",
+        "emissions": "203.02263508067967000000"
+    },
+    {
+        "name": "Sonatrach",
+        "country": "",
+        "emissions": "578.19779704798251000000"
+    },
+    {
+        "name": "Southwestern Energy",
+        "country": "",
+        "emissions": "124.92568323735748980000"
+    },
+    {
+        "name": "Suncor Energy",
+        "country": "",
+        "emissions": "108.17568252950177900000"
+    },
+    {
+        "name": "Surgutneftegas",
+        "country": "",
+        "emissions": "195.57550762652713800000"
+    },
+    {
+        "name": "TotalEnergies",
+        "country": "",
+        "emissions": "400.91956744025097000000"
+    },
+    {
+        "name": "TurkmenGaz",
+        "country": "",
+        "emissions": "199.75146141134058000000"
+    }
+]
+
+
+
